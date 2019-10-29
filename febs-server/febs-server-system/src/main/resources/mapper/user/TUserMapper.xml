@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itsz.febs.server.system.modules.user.mapper.TUserMapper">
+  <resultMap id="BaseResultMap" type="com.itsz.febs.server.system.modules.user.domain.TUser">
+    <!--@mbg.generated-->
+    <id column="USER_ID" jdbcType="BIGINT" property="userId" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="DEPT_ID" jdbcType="BIGINT" property="deptId" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="MOBILE" jdbcType="VARCHAR" property="mobile" />
+    <result column="STATUS" jdbcType="CHAR" property="status" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="LAST_LOGIN_TIME" jdbcType="TIMESTAMP" property="lastLoginTime" />
+    <result column="SEX" jdbcType="CHAR" property="sex" />
+    <result column="AVATAR" jdbcType="VARCHAR" property="avatar" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+<!--
+  <cache type="com.itsz.febs.server.system.boot.RedisCache" eviction="LRU" />
+-->
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    USER_ID, USERNAME, `PASSWORD`, DEPT_ID, EMAIL, MOBILE, `STATUS`, CREATE_TIME, MODIFY_TIME,
+    LAST_LOGIN_TIME, SEX, AVATAR, DESCRIPTION
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from t_user
+    where USER_ID = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    <!--@mbg.generated-->
+    delete from t_user
+    where USER_ID = #{userId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="USER_ID" keyProperty="userId" parameterType="com.itsz.febs.server.system.modules.user.domain.TUser" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_user (USERNAME, `PASSWORD`, DEPT_ID, 
+      EMAIL, MOBILE, `STATUS`, 
+      CREATE_TIME, MODIFY_TIME, LAST_LOGIN_TIME, 
+      SEX, AVATAR, DESCRIPTION
+      )
+    values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{deptId,jdbcType=BIGINT}, 
+      #{email,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, #{status,jdbcType=CHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{modifyTime,jdbcType=TIMESTAMP}, #{lastLoginTime,jdbcType=TIMESTAMP}, 
+      #{sex,jdbcType=CHAR}, #{avatar,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="USER_ID" keyProperty="userId" parameterType="com.itsz.febs.server.system.modules.user.domain.TUser" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_user
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        USERNAME,
+      </if>
+      <if test="password != null">
+        `PASSWORD`,
+      </if>
+      <if test="deptId != null">
+        DEPT_ID,
+      </if>
+      <if test="email != null">
+        EMAIL,
+      </if>
+      <if test="mobile != null">
+        MOBILE,
+      </if>
+      <if test="status != null">
+        `STATUS`,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="modifyTime != null">
+        MODIFY_TIME,
+      </if>
+      <if test="lastLoginTime != null">
+        LAST_LOGIN_TIME,
+      </if>
+      <if test="sex != null">
+        SEX,
+      </if>
+      <if test="avatar != null">
+        AVATAR,
+      </if>
+      <if test="description != null">
+        DESCRIPTION,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="deptId != null">
+        #{deptId,jdbcType=BIGINT},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastLoginTime != null">
+        #{lastLoginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=CHAR},
+      </if>
+      <if test="avatar != null">
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itsz.febs.server.system.modules.user.domain.TUser">
+    <!--@mbg.generated-->
+    update t_user
+    <set>
+      <if test="username != null">
+        USERNAME = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        `PASSWORD` = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="deptId != null">
+        DEPT_ID = #{deptId,jdbcType=BIGINT},
+      </if>
+      <if test="email != null">
+        EMAIL = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        MOBILE = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `STATUS` = #{status,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        MODIFY_TIME = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastLoginTime != null">
+        LAST_LOGIN_TIME = #{lastLoginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sex != null">
+        SEX = #{sex,jdbcType=CHAR},
+      </if>
+      <if test="avatar != null">
+        AVATAR = #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        DESCRIPTION = #{description,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where USER_ID = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itsz.febs.server.system.modules.user.domain.TUser">
+    <!--@mbg.generated-->
+    update t_user
+    set USERNAME = #{username,jdbcType=VARCHAR},
+      `PASSWORD` = #{password,jdbcType=VARCHAR},
+      DEPT_ID = #{deptId,jdbcType=BIGINT},
+      EMAIL = #{email,jdbcType=VARCHAR},
+      MOBILE = #{mobile,jdbcType=VARCHAR},
+      `STATUS` = #{status,jdbcType=CHAR},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      MODIFY_TIME = #{modifyTime,jdbcType=TIMESTAMP},
+      LAST_LOGIN_TIME = #{lastLoginTime,jdbcType=TIMESTAMP},
+      SEX = #{sex,jdbcType=CHAR},
+      AVATAR = #{avatar,jdbcType=VARCHAR},
+      DESCRIPTION = #{description,jdbcType=VARCHAR}
+    where USER_ID = #{userId,jdbcType=BIGINT}
+  </update>
+
+
+  <select id="selectByPage" parameterType="java.util.Map" resultMap="BaseResultMap" >
+     SELECT
+     USER_ID, USERNAME, `PASSWORD`, t.DEPT_ID, EMAIL, MOBILE, `STATUS`, t.CREATE_TIME, t.MODIFY_TIME, LAST_LOGIN_TIME, SEX, AVATAR, DESCRIPTION,
+     DEPT_NAME as deptName
+     FROM  t_user t LEFT JOIN t_dept t1 ON t.DEPT_ID = t1.DEPT_ID
+     <where>
+        <if test="username != null and username != ''">
+            AND USERNAME LIKE CONCAT ('%',#{username}%,'%')
+        </if>
+        <if test="email != null and email != ''">
+            AND  EMAIL like CONCAT ('%',#{email},'%')
+        </if>
+        <if test="mobile != null and mobile != ''">
+            AND MOBILE LIKE CONCAT ('%', #{mobile}, '%')
+        </if>
+     </where>
+  </select>
+  <select id="findByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+     SELECT
+     <include refid="Base_Column_List"></include>
+     FROM t_user
+     WHERE USERNAME = #{username}
+  </select>
+</mapper>

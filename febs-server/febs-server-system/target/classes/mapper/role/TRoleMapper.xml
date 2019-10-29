@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itsz.febs.server.system.modules.role.mapper.TRoleMapper">
+  <resultMap id="BaseResultMap" type="com.itsz.febs.server.system.modules.role.domain.TRole">
+    <!--@mbg.generated-->
+    <id column="ROLE_ID" jdbcType="BIGINT" property="roleId" />
+    <result column="ROLE_NAME" jdbcType="VARCHAR" property="roleName" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+<!--
+  <cache type="com.itsz.febs.server.system.boot.RedisCache" eviction="LRU" />
+-->
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ROLE_ID, ROLE_NAME, REMARK, CREATE_TIME, MODIFY_TIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from t_role
+    where ROLE_ID = #{roleId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    <!--@mbg.generated-->
+    delete from t_role
+    where ROLE_ID = #{roleId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="ROLE_ID" keyProperty="roleId" parameterType="com.itsz.febs.server.system.modules.role.domain.TRole" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_role (ROLE_NAME, REMARK, CREATE_TIME, 
+      MODIFY_TIME)
+    values (#{roleName,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{modifyTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" keyColumn="ROLE_ID" keyProperty="roleId" parameterType="com.itsz.febs.server.system.modules.role.domain.TRole" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_role
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="roleName != null">
+        ROLE_NAME,
+      </if>
+      <if test="remark != null">
+        REMARK,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="modifyTime != null">
+        MODIFY_TIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="roleName != null">
+        #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itsz.febs.server.system.modules.role.domain.TRole">
+    <!--@mbg.generated-->
+    update t_role
+    <set>
+      <if test="roleName != null">
+        ROLE_NAME = #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        REMARK = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        MODIFY_TIME = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where ROLE_ID = #{roleId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itsz.febs.server.system.modules.role.domain.TRole">
+    <!--@mbg.generated-->
+    update t_role
+    set ROLE_NAME = #{roleName,jdbcType=VARCHAR},
+      REMARK = #{remark,jdbcType=VARCHAR},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      MODIFY_TIME = #{modifyTime,jdbcType=TIMESTAMP}
+    where ROLE_ID = #{roleId,jdbcType=BIGINT}
+  </update>
+  <select id="queryAll" resultMap="BaseResultMap" >
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM t_role
+  </select>
+
+  <select id="queryByCondition" parameterType="java.util.Map" resultMap="BaseResultMap">
+     SELECT
+     <include refid="Base_Column_List"></include>
+     FROM t_role
+     <where>
+       <if test="roleName != null and roleName != ''">
+          AND ROLE_NAME LIKE CONCAT('%', #{roleName},'%')
+       </if>
+     </where>
+  </select>
+</mapper>

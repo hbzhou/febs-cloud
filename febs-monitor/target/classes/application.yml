@@ -1,0 +1,26 @@
+server:
+  port: 8401
+
+spring:
+  application:
+    name: FEBS-Monitor-Admin
+  boot:
+    admin:
+      ui:
+        title: ${spring.application.name}
+  security:
+    user:
+      name: febs
+      password: 123456
+
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    serviceUrl:
+      defaultZone: http://febs:123456@localhost:8001/register/eureka/
+

@@ -11,7 +11,12 @@
     <modules>
         <!-- 工程模块请随着项目的不断完善自行添加 -->
         <module>febs-cloud-dependencies</module>
+        <module>febs-commons</module>
         <module>febs-register</module>
+        <module>febs-auth</module>
+        <module>febs-gateway</module>
+        <module>febs-server</module>
+        <module>febs-monitor</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
