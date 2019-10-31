@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
         "com.itsz.febs.server.system.modules.menu.service",
         "com.itsz.febs.server.system.modules.role.controller",
         "com.itsz.febs.server.system.modules.role.service",
+        "com.itsz.febs.server.system.modules.hello",
 
 })
 @RestController

@@ -2,186 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686f7325-0e12-4c22-903d-ad0d73c30ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_swagger_spring_boot_starter_1_9_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/febs-auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/user/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-commons/febs-commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-commons/src/main/java/com/itsz/febs/commons/utils/ApplicationContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-commons/src/main/java/com/itsz/febs/commons/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/febs-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/ZuulBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-monitor/febs-monitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-monitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-monitor/src/main/java/com/itsz/febs/monitor/boot/MonitorBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-monitor/src/main/java/com/itsz/febs/monitor/boot/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-monitor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-register/src/main/java/com/itsz/febs/register/boot/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/febs-server-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/MyBatisDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SwaggerDocConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/domain/TDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/dto/QueryDeptReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/mapper/TDeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/service/TDeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/service/impl/TDeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/domain/TMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/dto/QueryMenuReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/mapper/TMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/service/TMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/service/impl/TMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/domain/TRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/dto/QueryRoleReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/mapper/TRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/service/TRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/service/impl/TRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/domain/TUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/dto/QueryUserReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/mapper/TUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/service/TUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/service/impl/TUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/dept/TDeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/menu/TMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/role/TRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/user/TUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/febs-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/febs-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-auth/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/febs-server-feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/clients/HelloFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/controller/HelloFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/hello/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-auth/target/classes/com/itsz/febs/auth/boot/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/febs-auth/target/classes/com/itsz/febs/auth/boot/WebSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/febs-cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-cloud-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febs-register/febs-register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-register/febs-register.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febs-register/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-register/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febs-register/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-register/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febs-register/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-register/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/febs-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-gateway/febs-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-gateway/target/classes/com/itsz/febs/gateway/boot/WebSecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-server/febs-server-system/febs-server-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-server/febs-server-system/febs-server-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-server/febs-server-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-server/febs-server-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-server/febs-server-system/target/classes/com/itsz/febs/server/system/boot/SystemBootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/febs-server/febs-server-system/target/classes/com/itsz/febs/server/system/boot/SystemBootApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febs-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/febs-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/febs-register/target/" />
     <ignored path="$PROJECT_DIR$/febs-cloud-dependencies/target/" />
@@ -193,6 +53,7 @@
     <ignored path="$PROJECT_DIR$/febs-server/febs-server-system/target/" />
     <ignored path="$PROJECT_DIR$/febs-commons/target/" />
     <ignored path="$PROJECT_DIR$/febs-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/febs-server/febs-server-feign/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,57 +80,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/ZuulBootApplication.java">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/ResourceServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/ResourceServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SwaggerDocConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="114">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -277,36 +118,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="137">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-auth/pom.xml">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/hello/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-auth/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="247">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="342">
+              <caret line="24" selection-start-line="23" selection-start-column="52" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/clients/HelloFeignClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -335,23 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/mapper/TMenuMapper.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/service/impl/TMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/service/TMenuService.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/dto/QueryRoleReqDto.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/mapper/TRoleMapper.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/service/TRoleService.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/service/impl/TRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/febs-commons/src/main/java/com/itsz/febs/commons/utils/ApplicationContextUtil.java" />
-        <option value="$PROJECT_DIR$/febs-commons/src/main/java/com/itsz/febs/commons/utils/ApplicationContextHolder.java" />
-        <option value="$PROJECT_DIR$/febs-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/RedisCache.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/dto/QueryUserReqDto.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/mapper/TUserMapper.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/service/TUserService.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/service/impl/TDeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/controller/RoleController.java" />
@@ -364,7 +214,6 @@
         <option value="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/dept/TDeptMapper.xml" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/service/impl/TUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/user/TUserMapper.xml" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/role/TRoleMapper.xml" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/menu/TMenuMapper.xml" />
@@ -372,20 +221,38 @@
         <option value="$PROJECT_DIR$/febs-monitor/src/main/java/com/itsz/febs/monitor/boot/MonitorBootApplication.java" />
         <option value="$PROJECT_DIR$/febs-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/febs-monitor/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/febs-cloud-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/febs-register/src/main/java/com/itsz/febs/register/boot/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/febs-register/pom.xml" />
         <option value="$PROJECT_DIR$/febs-register/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/febs-monitor/src/main/java/com/itsz/febs/monitor/boot/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/febs-auth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/febs-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/ResourceServerConfiguration.java" />
         <option value="$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/febs-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/febs-auth/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/febs-gateway/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/febs-cloud-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/hello/HelloController.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/feign/hello/HelloFeign.java" />
         <option value="$PROJECT_DIR$/febs-server/febs-server-system/pom.xml" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/febs-server/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/servere/feign/boot/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/servere/feign/clients/HelloFeignClient.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/servere/feign/controller/HelloFeignController.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/servere/feign/boot/FeignBootApplication.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/clients/HelloFeignClient.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignBootApplication.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/controller/HelloFeignController.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/febs-server/febs-server-feign/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -403,7 +270,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="464" />
+    <option name="x" value="647" />
+    <option name="y" value="4" />
     <option name="width" value="1400" />
     <option name="height" value="1040" />
   </component>
@@ -425,71 +293,6 @@
               <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="febs-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="febs-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server" type="462c0819:PsiDirectoryNode" />
-              <item name="febs-server-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -504,7 +307,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/febs-gateway/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -517,29 +320,30 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\resources\mapper" />
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\java\com\itsz\febs\server\system\modules" />
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.itsz.febs.servere.feign" />
       <recent name="com.itsz.febs.server.system.modules" />
       <recent name="com.itsz.febs.server.system" />
       <recent name="com.itsz.febs.auth.user" />
       <recent name="com.itsz.febs.auth" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-gateway\src\main\resources" />
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-auth\src\main\resources" />
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\resources" />
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\java\com\itsz\febs\server\system\boot" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itsz.febs.servere.feign.boot" />
       <recent name="com.itsz.febs.server.system.modules.user.dto" />
       <recent name="com.itsz.febs.server.system.boot" />
       <recent name="com.itsz.febs.server.system.modules.role.dto" />
       <recent name="com.itsz.febs.server.system.modules.menu.dto" />
-      <recent name="com.itsz.febs.server.system.modules.dept.dto" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\resources\mapper" />
+      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\java\com\itsz\febs\server\system\modules" />
       <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\resources" />
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-server\febs-server-system\src\main\java\com\itsz\febs\server\system\boot" />
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-gateway\src\main\resources" />
-      <recent name="D:\Jeremy\spring boot\febs-cloud\febs-auth\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -560,7 +364,7 @@
     </option>
     <option name="contentProportion" value="0.15800866" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MonitorBootApplication">
+  <component name="RunManager" selected="Spring Boot.FeignBootApplication">
     <configuration name="AuthBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="febs-auth" />
       <extension name="coverage">
@@ -570,6 +374,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itsz.febs.auth.boot.AuthBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="febs-server-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itsz.febs.server.feign.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itsz.febs.server.feign.boot.FeignBootApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -622,6 +439,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FeignBootApplication" />
         <item itemvalue="Spring Boot.ZuulBootApplication" />
         <item itemvalue="Spring Boot.AuthBootApplication" />
         <item itemvalue="Spring Boot.MonitorBootApplication" />
@@ -646,17 +464,18 @@
       <workItem from="1572062127554" duration="668000" />
       <workItem from="1572144430689" duration="5617000" />
       <workItem from="1572150369494" duration="6214000" />
-      <workItem from="1572177854628" duration="35345000" />
+      <workItem from="1572177854628" duration="36462000" />
+      <workItem from="1572403592937" duration="14174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47176000" />
+    <option name="totallyTimeSpent" value="62467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -684,12 +503,11 @@
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.19509476" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.44147158" />
-      <window_info anchor="right" id="Preview" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.59197325" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.07089552" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.07196162" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.073027715" />
@@ -699,187 +517,13 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Alibaba Log Console" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="right" id="Preview" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/service/impl/TDeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/dept/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/user/mapper/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/menu/mapper/TMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/role/mapper/TRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/MyBatisDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/properties/AuthClientsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="128" column="60" selection-start-line="128" selection-start-column="60" selection-end-line="128" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-commons/src/main/java/com/itsz/febs/commons/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="2540" column="60" selection-start-line="2540" selection-start-column="60" selection-end-line="2540" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/client/JdbcClientDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/properties/ClientConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/resources/febs-auth.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthorizationServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4244#4245#0" expanded="true" />
-            <element signature="e#4301#4302#0" expanded="true" />
-            <element signature="e#4322#4323#0" expanded="true" />
-            <element signature="e#4372#4373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SwaggerDocConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/RedisCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -917,17 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/mapper/dept/TDeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -960,14 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="12" selection-end-line="25" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1016,14 +641,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-cloud-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="92" column="53" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="53" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/febs-register/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -1053,49 +670,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/febs-auth/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="570">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="760">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/febs-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="593">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/WebSecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/user/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="437">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/user/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/AuthBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/java/com/itsz/febs/auth/boot/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/febs-server-system/info/info.2019-10-30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/febs-server-system/error/error.2019-10-30.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-auth/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-cloud-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/feign/hello/HelloFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="46" column="20" selection-end-line="93" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/java/com/itsz/febs/gateway/boot/ZuulBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1104,25 +815,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/pom.xml">
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/controller/HelloFeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="361">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/modules/hello/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/ResourceServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SwaggerDocConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-system/src/main/java/com/itsz/febs/server/system/boot/SystemBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" selection-start-line="23" selection-start-column="52" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/boot/FeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/febs-server/febs-server-feign/src/main/java/com/itsz/febs/server/feign/clients/HelloFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

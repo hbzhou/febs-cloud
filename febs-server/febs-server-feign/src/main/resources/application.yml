@@ -1,0 +1,71 @@
+spring:
+  application:
+    name: febs-system-feign
+  boot:
+    admin:
+      client:
+        url: http://localhost:8401
+        username: febs
+        password: 123456
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.106.198.217:3306/febs?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+    redis:
+      lettuce:
+        shutdown-timeout: 5000ms
+        pool:
+          max-wait: 200ms
+          max-idle: 8
+          min-idle: 8
+          max-active: 8
+      host: 47.106.198.217
+      port: 6379
+      password: 123456
+      database: 0
+server:
+  port: 8501
+
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    serviceUrl:
+      defaultZone: http://febs:123456@localhost:8001/register/eureka/
+
+security:
+  oauth2:
+    resource:
+      service-id: ${spring.application.name}
+      user-info-uri: http://localhost:8301/auth/user
+
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: "@project.description@"
+    version: "@project.version@"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

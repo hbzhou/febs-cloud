@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="febs-server-feign" />
         <module name="febs-auth" />
         <module name="febs-gateway" />
         <module name="febs-server-system" />
@@ -23,6 +24,7 @@
       <module name="febs-monitor" target="1.8" />
       <module name="febs-register" target="1.8" />
       <module name="febs-server" target="1.8" />
+      <module name="febs-server-feign" target="1.8" />
       <module name="febs-server-system" target="1.8" />
     </bytecodeTargetLevel>
   </component>

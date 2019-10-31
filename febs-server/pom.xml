@@ -13,6 +13,7 @@
     <name>febs-server</name>
     <modules>
         <module>febs-server-system</module>
+        <module>febs-server-feign</module>
     </modules>
     <build>
         <plugins>

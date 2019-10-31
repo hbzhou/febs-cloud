@@ -32,7 +32,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/oauth/**").authenticated()
-                .and().csrf().ignoringAntMatchers("/eureka/**");
+                .and().csrf().disable();
     }
 
     @Override

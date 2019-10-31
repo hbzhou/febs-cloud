@@ -32,6 +32,10 @@ zuul:
       path: /system/**
       serviceId: FEBS-SERVER-SYSTEM
       sensitiveHeaders: "*"
+    feign:
+      path: /feign/**
+      serviceId: FEBS-SYSTEM-FEIGN
+      sensitiveHeaders: "*"
   retryable: true
   ignored-services: "*"
   ribbon:
